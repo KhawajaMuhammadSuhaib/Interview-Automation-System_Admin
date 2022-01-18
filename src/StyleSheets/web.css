@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins", sans-serif;
+}
+.header{
+    text-transform: uppercase;
+    font-size:20px;
+    color: black;
+    font-weight: 600;
+    /* margin: 0; */
+}
+.subheadings{
+    text-transform: capitalize;
+    /* margin: 0px 0px 3px; */
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
+.red{
+    color:maroon;
+}
+.status-pending{
+    background-color:#ffd8b2;
+    color: #805b36;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px;
+
+}
+.status-working{
+    background-color: #ffd8b2;
+    color: #805b36;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px;
+}
+.status-resolved{
+    background-color: #abdac9;
+    color: #256029;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px;
+
+}
+.status-done{
+    background-color: #ffcdd2;
+    color: #c63737;
+}
+
+.description{
+    text-transform: capitalize;
+
+}
